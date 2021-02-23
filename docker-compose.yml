@@ -1,0 +1,48 @@
+version: '3.4'
+
+services:
+  mysql.data:
+    image: mysql:5.7.15
+
+  nosql.data:
+    image: mongo:latest
+
+  rabbitmq:
+    image: rabbitmq:latest
+    
+  redis:
+    image: redis:latest
+
+  identity.api:
+    image: qjfeeling/ws-identityapi:0.1
+    depends_on:
+      - mysql.data
+
+  inventory.ui:
+    image: qjfeeling/inventory-ui:0.2.1
+
+
+  inventory.api:
+    image: qjfeeling/ws-inventory-api:0.1.1
+    depends_on:
+      - mysql.data
+      - identity.api
+      - rabbitmq
+
+  material.api:
+    image: qjfeeling/ws-material-api:0.1.1
+    depends_on:
+      - mysql.data
+      - identity.api
+      - rabbitmq
+
+  web.inventoryagw:
+    image: qjfeeling/ws-web-inventoryggw:0.1.2
+    depends_on:
+      - mysql.data
+      - rabbitmq
+      - identity.api
+      - inventory.api
+      - material.api
+
+

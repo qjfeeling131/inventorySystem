@@ -1,0 +1,107 @@
+version: '3.4'
+
+# The default docker-compose.override file can use the "localhost" as the external name for testing web apps within the same dev machine. 
+# The WS_EXTERNAL_DNS_NAME_OR_IP environment variable is taken, by default, from the ".env" file defined like: 
+#     WS_EXTERNAL_DNS_NAME_OR_IP=localhost
+# but values present in the environment vars at runtime will always override those defined inside the .env file
+# An external IP or DNS name has to be used (instead localhost and the 10.0.75.1 IP) when testing the Web apps and the Xamarin apps from remote machines/devices using the same WiFi, for instance.
+
+services:
+  mysql.data:
+    environment:
+      - MYSQL_ROOT_PASSWORD=Pass@word
+    ports:
+      - "5433:3306"    # Important: In a production environment your should remove the external port
+
+  nosql.data:
+    ports:
+      - "27017:27017"  # Important: In a production environment your should remove the external port
+
+  rabbitmq:
+    ports:
+      - "15672:15672"  # Important: In a production environment your should remove the external port
+      - "5672:5672"    # Important: In a production environment your should remove the external port
+
+  redis:
+    ports:
+      - "6379:6379"
+  
+      
+  identity.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://0.0.0.0:80
+      - ConnectionString=${WS_AZURE_IDENTITY_DB:-Server=mysql.data;Database=WS.Services.IdentityDb;User Id=root;Password=Pass@word} 
+      - MarketingApiClient=http://${WS_EXTERNAL_DNS_NAME_OR_IP}:5102
+      - BasketApiClient=http://${WS_EXTERNAL_DNS_NAME_OR_IP}:5103
+      - OrderingApiClient=http://${WS_EXTERNAL_DNS_NAME_OR_IP}:5104
+      - InventoryApiClient=http://${WS_EXTERNAL_DNS_NAME_OR_IP}:5105
+      - MaterialApiClient=http://${WS_EXTERNAL_DNS_NAME_OR_IP}:5106
+      - WebShoppingAggClient=http://${WS_EXTERNAL_DNS_NAME_OR_IP}:5201
+      - WebInventoryAggClient=http://${WS_EXTERNAL_DNS_NAME_OR_IP}:5202
+      - SpaClient=http://${WS_EXTERNAL_DNS_NAME_OR_IP}:5301
+      - IssuerUri=http://identity.api
+      - UseCustomizationData=True  
+    ports:
+      - "5100:80"
+
+  inventory.ui:
+    ports:
+      - "8000:80"
+
+  web.inventoryagw:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - urls__orders=http://ordering.api
+      - urls__Identity=http://identity.api
+      - urls__Inventory=http://inventory.api
+      - urls__Materials=http://material.api
+      - identity__ClientId=inventoryaggregator
+      - identity__Secret=secret
+      - identity__Scopes__inventory=inventory
+      - identity__Scopes__materials=materials
+      - identity__Scopes__webinventoryagg=webinventoryagg
+      - IdentityUrl=http://identity.api             
+      - CatalogUrlHC=http://catalog.api/hc
+      - OrderingUrlHC=http://ordering.api/hc
+      - IdentityUrlHC=http://identity.api/hc             
+      - BasketUrlHC=http://basket.api/hc
+      - MarketingUrlHC=http://marketing.api/hc
+      - PaymentUrlHC=http://payment.api/hc
+      - LocationUrlHC=http://locations.api/hc
+      - IdentityUrlExternal=http://${WS_EXTERNAL_DNS_NAME_OR_IP}:5100
+    ports:
+      - "5202:80"   
+    volumes:
+      - ./src/ApiGateways//Web.Bff.inventorying/apigw:${WS_OCELOT_VOLUME_SPEC:-/app/configuration}
+
+
+  inventory.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionString=${WS_AZURE_IDENTITY_DB:-Server=mysql.data;Database=WS.Services.Inventories;User Id=root;Password=Pass@word} 
+      - identityUrl=http://identity.api              #Local: You need to open your local dev-machine firewall at range 5100-5110.
+      - IdentityUrlExternal=http://${WS_EXTERNAL_DNS_NAME_OR_IP}:5100
+      - EventBusConnection=${WS_AZURE_SERVICE_BUS:-rabbitmq}
+    ports:
+      - "5105:80"
+      - "9103:443"
+    volumes:
+      - ~/.aspnet/https:/root/.aspnet/https:ro
+      - ~/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+
+  material.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development 
+      - ASPNETCORE_URLS=http://+:80
+      - ConnectionString=${WS_AZURE_IDENTITY_DB:-Server=mysql.data;Database=WS.Services.Materials;User Id=root;Password=Pass@word} 
+      - identityUrl=http://identity.api              #Local: You need to open your local dev-machine firewall at range 5100-5110.
+      - IdentityUrlExternal=http://${WS_EXTERNAL_DNS_NAME_OR_IP}:5100
+      - EventBusConnection=${WS_AZURE_SERVICE_BUS:-rabbitmq}
+    ports:
+      - "5106:80"
+      - "9104:443"
+    volumes:
+      - ~/.aspnet/https:/root/.aspnet/https:ro
+      - ~/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
