@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2023-07-31T13:21:52.856Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ktjgFZdOsi0yK_B4qCNQ" version="21.6.6" type="github">
+  <diagram name="第 1 页" id="bMrtUaUwkWoaIK4hSp16">
+    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-4" value="Item" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;rounded=1;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="250" y="210" width="100" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="7LJYLs-t4_m_J0u_Ao5l-4">
+          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-5" value="Dreaft" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;rounded=1;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="460" y="210" width="100" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="7LJYLs-t4_m_J0u_Ao5l-5">
+          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-6" value="Order" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;rounded=1;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="670" y="210" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-7" value="Invoice" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;rounded=1;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="880" y="210" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-17" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;sketch=1;curveFitting=1;jiggle=2;glass=0;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="210" width="20" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="7LJYLs-t4_m_J0u_Ao5l-17">
+          <mxGeometry x="5" y="70" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-25" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="7LJYLs-t4_m_J0u_Ao5l-18" target="7LJYLs-t4_m_J0u_Ao5l-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-26" value="Add" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7LJYLs-t4_m_J0u_Ao5l-25">
+          <mxGeometry x="-0.1456" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-30" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="7LJYLs-t4_m_J0u_Ao5l-23" target="7LJYLs-t4_m_J0u_Ao5l-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-31" value="save" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7LJYLs-t4_m_J0u_Ao5l-30">
+          <mxGeometry x="-0.1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
