@@ -1,50 +1,177 @@
-<mxfile host="app.diagrams.net" modified="2023-07-31T13:21:52.856Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ktjgFZdOsi0yK_B4qCNQ" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-01T12:25:56.268Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="nLXRBbVItFHLA_1bGGB9" version="21.6.6" type="github">
   <diagram name="第 1 页" id="bMrtUaUwkWoaIK4hSp16">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-4" value="Item" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;rounded=1;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="250" y="210" width="100" height="490" as="geometry" />
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-4" value="Item" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;rounded=1;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" parent="1" vertex="1">
+          <mxGeometry x="250" y="210" width="100" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="7LJYLs-t4_m_J0u_Ao5l-4">
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" parent="7LJYLs-t4_m_J0u_Ao5l-4" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-5" value="Dreaft" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;rounded=1;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="460" y="210" width="100" height="490" as="geometry" />
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" vertex="1" parent="7LJYLs-t4_m_J0u_Ao5l-4">
+          <mxGeometry x="45" y="190" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="7LJYLs-t4_m_J0u_Ao5l-5">
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-5" value="Dreaft" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;rounded=1;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" parent="1" vertex="1">
+          <mxGeometry x="460" y="210" width="100" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" parent="7LJYLs-t4_m_J0u_Ao5l-5" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-6" value="Order" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;rounded=1;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="670" y="210" width="100" height="480" as="geometry" />
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" vertex="1" parent="7LJYLs-t4_m_J0u_Ao5l-5">
+          <mxGeometry x="45" y="170" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-7" value="Invoice" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;rounded=1;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="880" y="210" width="100" height="480" as="geometry" />
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" vertex="1" parent="7LJYLs-t4_m_J0u_Ao5l-5">
+          <mxGeometry x="45" y="270" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-17" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;sketch=1;curveFitting=1;jiggle=2;glass=0;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="210" width="20" height="480" as="geometry" />
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" vertex="1" parent="7LJYLs-t4_m_J0u_Ao5l-5">
+          <mxGeometry x="45" y="390" width="10" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="7LJYLs-t4_m_J0u_Ao5l-17">
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-6" value="Order" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;rounded=1;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" parent="1" vertex="1">
+          <mxGeometry x="670" y="210" width="100" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" vertex="1" parent="7LJYLs-t4_m_J0u_Ao5l-6">
+          <mxGeometry x="45" y="400" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-7" value="Invoice" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;rounded=1;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" parent="1" vertex="1">
+          <mxGeometry x="880" y="210" width="100" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" vertex="1" parent="7LJYLs-t4_m_J0u_Ao5l-7">
+          <mxGeometry x="45" y="410" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-17" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;sketch=1;curveFitting=1;jiggle=2;glass=0;rounded=1;fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" parent="1" vertex="1">
+          <mxGeometry x="130" y="210" width="20" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;fillColor=#fff2cc;strokeColor=#d6b656;" parent="7LJYLs-t4_m_J0u_Ao5l-17" vertex="1">
           <mxGeometry x="5" y="70" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-25" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="7LJYLs-t4_m_J0u_Ao5l-18" target="7LJYLs-t4_m_J0u_Ao5l-4">
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" vertex="1" parent="7LJYLs-t4_m_J0u_Ao5l-17">
+          <mxGeometry x="5" y="160" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" vertex="1" parent="7LJYLs-t4_m_J0u_Ao5l-17">
+          <mxGeometry x="5" y="270" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" vertex="1" parent="7LJYLs-t4_m_J0u_Ao5l-17">
+          <mxGeometry x="5" y="375" width="10" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-25" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" parent="1" source="7LJYLs-t4_m_J0u_Ao5l-18" target="7LJYLs-t4_m_J0u_Ao5l-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-26" value="Add" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7LJYLs-t4_m_J0u_Ao5l-25">
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-26" value="Add" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" parent="7LJYLs-t4_m_J0u_Ao5l-25" vertex="1" connectable="0">
           <mxGeometry x="-0.1456" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-30" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="7LJYLs-t4_m_J0u_Ao5l-23" target="7LJYLs-t4_m_J0u_Ao5l-27">
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-30" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" parent="1" source="7LJYLs-t4_m_J0u_Ao5l-23" target="7LJYLs-t4_m_J0u_Ao5l-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-31" value="save" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7LJYLs-t4_m_J0u_Ao5l-30">
+        <mxCell id="7LJYLs-t4_m_J0u_Ao5l-31" value="save" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" parent="7LJYLs-t4_m_J0u_Ao5l-30" vertex="1" connectable="0">
           <mxGeometry x="-0.1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-20" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=ma+shan+zheng&quot;&gt;Save it to mogodb&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;exitX=0.5;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" edge="1" target="7LJYLs-t4_m_J0u_Ao5l-27" parent="1">
+          <mxGeometry x="0.0526" y="10" relative="1" as="geometry">
+            <mxPoint x="520" y="300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="560" y="300" />
+              <mxPoint x="560" y="330" />
+            </Array>
+            <mxPoint x="535" y="330" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-21" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="lF_V_GW8DHjDCu7ll7Mp-2" target="lF_V_GW8DHjDCu7ll7Mp-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-22" value="veiw" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lF_V_GW8DHjDCu7ll7Mp-21">
+          <mxGeometry x="-0.2533" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-25" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="lF_V_GW8DHjDCu7ll7Mp-23" target="lF_V_GW8DHjDCu7ll7Mp-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-26" value="check" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lF_V_GW8DHjDCu7ll7Mp-25">
+          <mxGeometry x="-0.6167" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-29" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="lF_V_GW8DHjDCu7ll7Mp-27" target="7LJYLs-t4_m_J0u_Ao5l-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-30" value="place order" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lF_V_GW8DHjDCu7ll7Mp-29">
+          <mxGeometry x="-0.6818" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-31" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="630" as="sourcePoint" />
+            <mxPoint x="719.5" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-32" value="generate order" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lF_V_GW8DHjDCu7ll7Mp-31">
+          <mxGeometry x="-0.335" y="-5" relative="1" as="geometry">
+            <mxPoint x="27" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-33" value="" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;exitX=0.5;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" edge="1" parent="1">
+          <mxGeometry x="0.0526" y="10" relative="1" as="geometry">
+            <mxPoint x="520" y="690" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="560" y="690" />
+              <mxPoint x="560" y="720" />
+            </Array>
+            <mxPoint x="515" y="720" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-39" value="delete dreaft" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lF_V_GW8DHjDCu7ll7Mp-33">
+          <mxGeometry x="-0.6" relative="1" as="geometry">
+            <mxPoint x="57" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-34" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="lF_V_GW8DHjDCu7ll7Mp-1" target="7LJYLs-t4_m_J0u_Ao5l-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-35" value="Successful" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lF_V_GW8DHjDCu7ll7Mp-34">
+          <mxGeometry x="0.2652" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-41" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;jumpStyle=arc;strokeColor=default;dashed=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="lF_V_GW8DHjDCu7ll7Mp-1" target="lF_V_GW8DHjDCu7ll7Mp-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-48" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lF_V_GW8DHjDCu7ll7Mp-41">
+          <mxGeometry x="0.2947" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-43" value="Order" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="140" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-46" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1" source="lF_V_GW8DHjDCu7ll7Mp-1" target="7LJYLs-t4_m_J0u_Ao5l-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-47" value="generate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lF_V_GW8DHjDCu7ll7Mp-46">
+          <mxGeometry x="-0.0513" y="-5" relative="1" as="geometry">
+            <mxPoint x="5" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-49" value="Payment" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;rounded=1;glass=0;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="210" width="100" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="lF_V_GW8DHjDCu7ll7Mp-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;curveFitting=1;jiggle=2;fontFamily=ma shan zheng;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dma%2Bshan%2Bzheng;" vertex="1" parent="lF_V_GW8DHjDCu7ll7Mp-49">
+          <mxGeometry x="45" y="410" width="10" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
